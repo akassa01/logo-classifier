@@ -2,6 +2,6 @@ kagglehub
 numpy
 keras
 pandas
-matplotlib.pyplot
+matplotlib
 dotenv
 requests
