@@ -1,0 +1,7 @@
+kagglehub
+numpy
+keras
+pandas
+matplotlib.pyplot
+dotenv
+requests
