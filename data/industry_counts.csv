@@ -1,146 +1,146 @@
 industry,sector,count
-information technology and services,Technology,369513
-marketing and advertising,Marketing & Communications,284501
-construction,Construction & Infrastructure,193730
-management consulting,Management Consulting,160191
-real estate,Real Estate,150563
-computer software,Technology,147938
-internet,Technology,147706
-financial services,Financial Services,130672
-"health, wellness and fitness",Health & Wellness,121720
-legal services,Legal,114393
-design,Design & Creative,100939
-education management,Education,100788
-hospital & health care,Health & Wellness,96113
-retail,Retail & Consumer,92324
-non-profit organization management,Non-profit & Social,89795
-automotive,Manufacturing,80415
-hospitality,"Sports, Recreation & Travel",75296
-food & beverages,Food & Agriculture,73092
-professional training & coaching,Education,70785
-entertainment,Media & Entertainment,69283
-accounting,Financial Services,65368
-staffing and recruiting,Human Resources & Staffing,63371
-events services,"Sports, Recreation & Travel",63132
-architecture & planning,Design & Creative,62686
-mechanical or industrial engineering,Manufacturing,62317
-human resources,Human Resources & Staffing,61627
-"leisure, travel & tourism","Sports, Recreation & Travel",57944
-telecommunications,Telecommunications,57370
-media production,Media & Entertainment,57327
-electrical/electronic manufacturing,Manufacturing,54731
-insurance,Financial Services,53980
-oil & energy,Energy & Environment,52981
-apparel & fashion,Retail & Consumer,52641
-sports,"Sports, Recreation & Travel",52379
-environmental services,Energy & Environment,44017
-consumer services,Professional Services,43690
-transportation/trucking/railroad,Transportation & Logistics,42294
-machinery,Manufacturing,41258
-music,Media & Entertainment,40838
-consumer goods,Retail & Consumer,39995
-renewables & environment,Energy & Environment,39966
-photography,Design & Creative,38849
-graphic design,Design & Creative,38721
-publishing,Media & Entertainment,36361
-medical practice,Health & Wellness,35958
-wholesale,Retail & Consumer,34657
-public relations and communications,Marketing & Communications,33783
-building materials,Construction & Infrastructure,32100
-civil engineering,Construction & Infrastructure,31482
-logistics and supply chain,Transportation & Logistics,30799
-facilities services,Construction & Infrastructure,30525
-printing,Manufacturing,30228
-restaurants,Food & Agriculture,29028
-higher education,Education,28920
-aviation & aerospace,Transportation & Logistics,28884
-civic & social organization,Non-profit & Social,28843
-food production,Food & Agriculture,28663
-medical devices,Research & Science,28334
-research,Research & Science,27784
-pharmaceuticals,Health & Wellness,26516
-investment management,Financial Services,26045
-furniture,Retail & Consumer,25992
-religious institutions,Non-profit & Social,24621
-online media,Media & Entertainment,24489
-security and investigations,Professional Services,24383
-broadcast media,Media & Entertainment,23990
-e-learning,Education,23896
-business supplies and equipment,Retail & Consumer,23422
-individual & family services,Non-profit & Social,23108
-chemicals,Manufacturing,21984
-government administration,Government & Public Sector,21976
-mining & metals,Energy & Environment,21788
-industrial automation,Manufacturing,21735
-arts and crafts,Design & Creative,21693
-international trade and development,Government & Public Sector,21382
-mental health care,Health & Wellness,20918
-primary/secondary education,Education,20645
-biotechnology,Research & Science,20337
-motion pictures and film,Media & Entertainment,19658
-import and export,Transportation & Logistics,19540
-information services,Technology,19455
-consumer electronics,Retail & Consumer,19130
-banking,Financial Services,18819
-writing and editing,Media & Entertainment,18550
-textiles,Manufacturing,17671
-cosmetics,Retail & Consumer,17208
-farming,Food & Agriculture,16841
-maritime,Transportation & Logistics,15202
-computer & network security,Technology,15119
-computer games,Technology,15108
-fine art,Design & Creative,15088
-venture capital & private equity,Financial Services,14740
-wine and spirits,Food & Agriculture,14654
-utilities,Energy & Environment,14316
-performing arts,Media & Entertainment,14225
-sporting goods,Retail & Consumer,13451
-luxury goods & jewelry,Retail & Consumer,13377
-plastics,Manufacturing,13103
-packaging and containers,Manufacturing,12706
-market research,Marketing & Communications,12390
-commercial real estate,Real Estate,12236
-computer hardware,Technology,12145
-computer networking,Technology,11784
-recreational facilities and services,"Sports, Recreation & Travel",11421
-veterinary,Health & Wellness,11403
-program development,Education,11252
-outsourcing/offshoring,Human Resources & Staffing,11140
-philanthropy,Non-profit & Social,10256
-translation and localization,Professional Services,9985
-newspapers,Media & Entertainment,9131
-executive office,Professional Services,8937
-public safety,Government & Public Sector,8462
-museums and institutions,Non-profit & Social,8238
-investment banking,Financial Services,7920
-defense & space,Government & Public Sector,7659
-fund-raising,Non-profit & Social,7396
-government relations,Government & Public Sector,7127
-think tanks,Government & Public Sector,6671
-alternative medicine,Health & Wellness,6229
-animation,Design & Creative,5994
-public policy,Government & Public Sector,5621
-political organization,Government & Public Sector,5465
-international affairs,Government & Public Sector,5460
-wireless,Technology,5327
-semiconductors,Technology,5326
-paper & forest products,Manufacturing,4896
-law enforcement,Government & Public Sector,4785
-warehousing,Transportation & Logistics,4701
-capital markets,Financial Services,4303
-"glass, ceramics & concrete",Manufacturing,4282
-gambling & casinos,"Sports, Recreation & Travel",3865
-libraries,Education,3508
-judiciary,Government & Public Sector,2782
-shipbuilding,Manufacturing,2746
-package/freight delivery,Transportation & Logistics,2483
-military,Government & Public Sector,2268
-alternative dispute resolution,Legal,2141
-nanotechnology,Research & Science,2137
-dairy,Food & Agriculture,2098
-supermarkets,Food & Agriculture,1801
-fishery,Food & Agriculture,1761
-ranching,Food & Agriculture,1636
-railroad manufacture,Manufacturing,1133
-tobacco,Retail & Consumer,946
-legislative office,Government & Public Sector,314
+information technology and services,Technology,106089
+marketing and advertising,Marketing & Communications,59848
+construction,Construction & Infrastructure,44999
+computer software,Technology,40404
+financial services,Financial Services,38288
+real estate,Real Estate,37937
+education management,Education,33813
+hospital & health care,Health & Wellness,33033
+non-profit organization management,Non-profit & Social,31001
+management consulting,Management Consulting,29205
+legal services,Legal,29164
+internet,Technology,29128
+automotive,Manufacturing,24684
+"health, wellness and fitness",Health & Wellness,21988
+hospitality,"Sports, Recreation & Travel",21303
+mechanical or industrial engineering,Manufacturing,20632
+telecommunications,Telecommunications,20562
+oil & energy,Energy & Environment,20330
+staffing and recruiting,Human Resources & Staffing,20077
+retail,Retail & Consumer,19375
+insurance,Financial Services,18353
+electrical/electronic manufacturing,Manufacturing,17810
+human resources,Human Resources & Staffing,17086
+food & beverages,Food & Agriculture,16845
+architecture & planning,Design & Creative,14780
+design,Design & Creative,14371
+higher education,Education,13958
+accounting,Financial Services,13943
+"leisure, travel & tourism","Sports, Recreation & Travel",13538
+machinery,Manufacturing,12855
+professional training & coaching,Education,12664
+events services,"Sports, Recreation & Travel",12580
+government administration,Government & Public Sector,12421
+entertainment,Media & Entertainment,12311
+transportation/trucking/railroad,Transportation & Logistics,12107
+environmental services,Energy & Environment,11772
+logistics and supply chain,Transportation & Logistics,11602
+sports,"Sports, Recreation & Travel",10895
+civil engineering,Construction & Infrastructure,10660
+pharmaceuticals,Health & Wellness,10638
+building materials,Construction & Infrastructure,10513
+consumer goods,Retail & Consumer,10362
+apparel & fashion,Retail & Consumer,10243
+media production,Media & Entertainment,10035
+renewables & environment,Energy & Environment,9963
+aviation & aerospace,Transportation & Logistics,9825
+banking,Financial Services,9752
+publishing,Media & Entertainment,9687
+medical devices,Research & Science,9597
+wholesale,Retail & Consumer,9567
+food production,Food & Agriculture,9250
+research,Research & Science,9071
+civic & social organization,Non-profit & Social,8451
+primary/secondary education,Education,8337
+chemicals,Manufacturing,8331
+mining & metals,Energy & Environment,7608
+printing,Manufacturing,7529
+facilities services,Construction & Infrastructure,7492
+public relations and communications,Marketing & Communications,7485
+industrial automation,Manufacturing,7466
+investment management,Financial Services,7394
+broadcast media,Media & Entertainment,7299
+medical practice,Health & Wellness,7256
+biotechnology,Research & Science,6985
+security and investigations,Professional Services,6485
+consumer services,Professional Services,6353
+furniture,Retail & Consumer,6181
+restaurants,Food & Agriculture,6114
+individual & family services,Non-profit & Social,6087
+business supplies and equipment,Retail & Consumer,6070
+music,Media & Entertainment,5906
+mental health care,Health & Wellness,5692
+utilities,Energy & Environment,5342
+religious institutions,Non-profit & Social,5264
+e-learning,Education,5215
+textiles,Manufacturing,5066
+international trade and development,Government & Public Sector,5048
+maritime,Transportation & Logistics,4855
+plastics,Manufacturing,4706
+consumer electronics,Retail & Consumer,4645
+import and export,Transportation & Logistics,4506
+information services,Technology,4503
+packaging and containers,Manufacturing,4369
+online media,Media & Entertainment,4290
+outsourcing/offshoring,Human Resources & Staffing,4194
+venture capital & private equity,Financial Services,4017
+farming,Food & Agriculture,3991
+cosmetics,Retail & Consumer,3840
+market research,Marketing & Communications,3739
+computer & network security,Technology,3739
+motion pictures and film,Media & Entertainment,3450
+graphic design,Design & Creative,3421
+commercial real estate,Real Estate,3386
+computer games,Technology,3367
+newspapers,Media & Entertainment,3341
+performing arts,Media & Entertainment,3263
+computer hardware,Technology,3248
+wine and spirits,Food & Agriculture,3232
+defense & space,Government & Public Sector,3030
+museums and institutions,Non-profit & Social,2821
+luxury goods & jewelry,Retail & Consumer,2691
+computer networking,Technology,2624
+philanthropy,Non-profit & Social,2511
+sporting goods,Retail & Consumer,2506
+government relations,Government & Public Sector,2505
+recreational facilities and services,"Sports, Recreation & Travel",2476
+investment banking,Financial Services,2398
+photography,Design & Creative,2398
+translation and localization,Professional Services,2338
+public safety,Government & Public Sector,2256
+semiconductors,Technology,2208
+program development,Education,2204
+arts and crafts,Design & Creative,2148
+public policy,Government & Public Sector,2109
+writing and editing,Media & Entertainment,1923
+fine art,Design & Creative,1894
+paper & forest products,Manufacturing,1789
+think tanks,Government & Public Sector,1696
+international affairs,Government & Public Sector,1648
+veterinary,Health & Wellness,1639
+wireless,Technology,1596
+gambling & casinos,"Sports, Recreation & Travel",1518
+fund-raising,Non-profit & Social,1479
+law enforcement,Government & Public Sector,1439
+political organization,Government & Public Sector,1419
+executive office,Professional Services,1408
+animation,Design & Creative,1262
+capital markets,Financial Services,1226
+"glass, ceramics & concrete",Manufacturing,1198
+libraries,Education,1198
+shipbuilding,Manufacturing,989
+warehousing,Transportation & Logistics,969
+judiciary,Government & Public Sector,822
+supermarkets,Food & Agriculture,757
+dairy,Food & Agriculture,751
+alternative medicine,Health & Wellness,699
+military,Government & Public Sector,663
+package/freight delivery,Transportation & Logistics,642
+nanotechnology,Research & Science,628
+railroad manufacture,Manufacturing,463
+fishery,Food & Agriculture,379
+alternative dispute resolution,Legal,364
+ranching,Food & Agriculture,313
+tobacco,Retail & Consumer,258
+legislative office,Government & Public Sector,122

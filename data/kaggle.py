@@ -230,13 +230,16 @@ def analyze_industries(dataset_path: str) -> pd.DataFrame:
     csv_path = csv_files[0]
     print(f"Reading: {csv_path}")
 
-    # Only load the two columns we need — keeps memory usage low for 7M rows
-    df = pd.read_csv(csv_path, usecols=["domain", "industry"], low_memory=False)
+    df = pd.read_csv(csv_path, usecols=["domain", "industry", "size range"], low_memory=False)
     print(f"Total rows loaded: {len(df):,}")
 
     # Drop rows with no domain entry
     df = df[df["domain"].notna() & (df["domain"].str.strip() != "")]
     print(f"Rows with domain: {len(df):,}")
+
+    # Drop micro-businesses (1–10 employees)
+    df = df[df["size range"] != "1 - 10"]
+    print(f"Rows after removing 1–10 employee companies: {len(df):,}")
 
     # Drop rows with no industry entry
     df = df[df["industry"].notna() & (df["industry"].str.strip() != "")]
@@ -253,14 +256,34 @@ def analyze_industries(dataset_path: str) -> pd.DataFrame:
         .sort_values("count", ascending=False)
         .reset_index(drop=True)
     )
-    print(f"Unique industry values (after normalization): {len(industry_counts):,}")
 
     return industry_counts
+
+
+def print_sector_summary(industry_counts: pd.DataFrame) -> None:
+    sector_counts = (
+        industry_counts.groupby("sector")["count"]
+        .sum()
+        .sort_values(ascending=False)
+        .reset_index()
+    )
+    total = sector_counts["count"].sum()
+
+    print("\n" + "=" * 45)
+    print(f"{'SECTOR':<35} {'COUNT':>8}")
+    print("=" * 45)
+    for _, row in sector_counts.iterrows():
+        print(f"{row['sector']:<35} {row['count']:>8,}")
+    print("=" * 45)
+    print(f"{'TOTAL':<35} {total:>8,}")
+    print("=" * 45 + "\n")
 
 
 def main():
     dataset_path = download_dataset()
     industry_counts = analyze_industries(dataset_path)
+
+    print_sector_summary(industry_counts)
 
     output_path = os.path.join(os.path.dirname(__file__), "industry_counts.csv")
     industry_counts.to_csv(output_path, index=False)
