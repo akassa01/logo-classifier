@@ -1,7 +1,9 @@
 import os
+import sys
 import glob
 import kagglehub
 import pandas as pd
+from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -10,6 +12,38 @@ load_dotenv()
 token = os.getenv("KAGGLE_API_TOKEN")
 if token and not os.getenv("KAGGLE_TOKEN"):
     os.environ["KAGGLE_TOKEN"] = token
+
+
+# ---------------------------------------------------------------------------
+# Constants
+# ---------------------------------------------------------------------------
+
+SIZE_RANK: dict[str, int] = {
+    "10001+": 7,
+    "5001 - 10000": 6,
+    "1001 - 5000": 5,
+    "501 - 1000": 4,
+    "201 - 500": 3,
+    "51 - 200": 2,
+    "11 - 50": 1,
+}
+
+_CACHE_CSV = (
+    Path.home()
+    / ".cache/kagglehub/datasets/peopledatalabssf"
+    / "free-7-million-company-dataset/versions/1/companies_sorted.csv"
+)
+
+
+def _find_dataset_csv() -> str:
+    """Return path to the companies CSV, using local cache or downloading."""
+    if _CACHE_CSV.exists():
+        return str(_CACHE_CSV)
+    dataset_path = download_dataset()
+    csv_files = glob.glob(os.path.join(dataset_path, "*.csv"))
+    if not csv_files:
+        raise FileNotFoundError(f"No CSV files found in {dataset_path}")
+    return csv_files[0]
 
 
 # ---------------------------------------------------------------------------
@@ -279,7 +313,56 @@ def print_sector_summary(industry_counts: pd.DataFrame) -> None:
     print("=" * 45 + "\n")
 
 
+def build_sample(output_path: str | None = None) -> pd.DataFrame:
+    """
+    Build a stratified sample of ~230k companies (top 10,000 per sector)
+    sorted by company size descending. Saves to output_path if provided.
+    """
+    csv_path = _find_dataset_csv()
+    print(f"Loading {csv_path} ...")
+    df = pd.read_csv(
+        csv_path,
+        usecols=["name", "domain", "industry", "size range"],
+        low_memory=False,
+    )
+    print(f"Loaded {len(df):,} rows")
+
+    # Filter 1: drop rows with null/blank domain
+    df = df[df["domain"].notna() & (df["domain"].str.strip() != "")]
+    print(f"After domain filter:    {len(df):,}")
+
+    # Filter 2: drop micro-businesses (1–10 employees)
+    df = df[df["size range"] != "1 - 10"]
+    print(f"After size filter:      {len(df):,}")
+
+    # Filter 3: drop rows with null/blank industry
+    df = df[df["industry"].notna() & (df["industry"].str.strip() != "")]
+    print(f"After industry filter:  {len(df):,}")
+
+    # Normalize industry labels and add sector column
+    df = normalize_industries(df)
+
+    # Sort by size rank descending (largest companies first)
+    df["_rank"] = df["size range"].map(SIZE_RANK).fillna(0)
+    df = df.sort_values("_rank", ascending=False).drop(columns=["_rank"])
+
+    # Take top 10,000 rows per sector
+    df = df.groupby("sector", group_keys=False).head(10_000).reset_index(drop=True)
+    print(f"Sample: {len(df):,} rows across {df['sector'].nunique()} sectors")
+
+    if output_path:
+        df.to_csv(output_path, index=False)
+        print(f"Saved to {output_path}")
+
+    return df
+
+
 def main():
+    if "--build-sample" in sys.argv:
+        out = os.path.join(os.path.dirname(__file__), "sample.csv")
+        build_sample(output_path=out)
+        return
+
     dataset_path = download_dataset()
     industry_counts = analyze_industries(dataset_path)
 

@@ -5,3 +5,7 @@ pandas
 matplotlib
 dotenv
 requests
+aiohttp
+Pillow
+beautifulsoup4
+lxml
