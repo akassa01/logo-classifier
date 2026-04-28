@@ -1,11 +1,6 @@
 kagglehub
 numpy
-keras
 pandas
 matplotlib
-dotenv
-requests
-aiohttp
-Pillow
-beautifulsoup4
-lxml
+python-dotenv
+tensorflow==2.18
