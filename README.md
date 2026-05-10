@@ -29,7 +29,8 @@ To run the project:
 1. Open the notebook on Kaggle.
 2. Add the required datasets using the **Add Input** button.
 3. Make sure the logo images and label CSV files are available under `/kaggle/input/`.
-4. Run the notebook from top to bottom.
+4. Ensure that **GPU T4x2** is enabled in Settings -> Accelerator
+5. Navigate to **Save Version** and enable **Save & Run All (commit)** 
 
 During execution, the notebook loads the logo dataset, maps each company logo to a sector label, preprocesses the images, trains the classification model, and evaluates its performance. Any generated outputs, including trained model files or result CSVs, will be written to `/kaggle/working/`.
 
