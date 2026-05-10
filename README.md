@@ -37,6 +37,6 @@ During execution, the notebook loads the logo dataset, maps each company logo to
 ## Acknowledgements
 
 This project was advised under the mentorship of our instructor Matthias Heumesser. This template was based on based on [Audrey
-Feldroy\'s](https://github.com/audreyfeldroy)\'s great
+Feldroy](https://github.com/audreyfeldroy)\'s great
 [cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage)
 repository.
