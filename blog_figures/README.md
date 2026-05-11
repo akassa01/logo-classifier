@@ -8,7 +8,7 @@ This directory contains all of the plots and graphs displayed on our blog which 
 > `create_accuracy_loss_plot(H)` relies on the history object, which is returned by training the model, being in memory and cannot work with just pre-saved weights of a model.
 
 ```
-blob_figures/
+blog_figures/
 │   ├── accuracy_loss_block3-top.png                     # create_accuracy_loss_plot(H)                                        
 │   ├── confusion_matrix_block3-top.png                  # create_confusion_matrix(model, test_data, classes)
 │   ├── f1_per_class_block7-top.png                      # create_f1_visual(top_k_df)
