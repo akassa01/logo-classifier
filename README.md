@@ -15,7 +15,7 @@ We collected and labeled a large logo dataset using sector categories we defined
 ---
 
 <p align="center">
-  <a href="https://docs.google.com/document/d/1R4WdnvLlnL8vmv9-cv3ibTUSvB2eDP9dR-IdrZXV56A/edit?usp=sharing">Notes</a> - <a href="">Blog</a>
+  <a href="https://docs.google.com/document/d/1R4WdnvLlnL8vmv9-cv3ibTUSvB2eDP9dR-IdrZXV56A/edit?usp=sharing">Notes</a> - <a href="https://medium.com/@tevinpark001/classifying-logos-by-sector-using-cnn-d9cb6c197eba">Blog</a>
 </p>
 
 ---
@@ -24,6 +24,9 @@ We collected and labeled a large logo dataset using sector categories we defined
 
 ```
 logo-classifier/
+├── blog_figures/
+│   ├── *.png
+│   └── README.md
 ├── data/
 │   ├── classification-builder.ipynb
 │   ├── gics.json
