@@ -20,6 +20,19 @@ We collected and labeled a large logo dataset using sector categories we defined
 
 ---
 
+## Project Structure
+
+```
+logo-classifier/
+├── data/
+│   ├── classification-builder.ipynb
+│   ├── gics.json
+│   └── industry_counts.csv
+├── model/
+│   └── logo-classifier.ipynb
+└── README.md
+```
+
 ## Quickstart
 
 This project is designed to run in a **Kaggle Notebook** environment. Instead of requiring local installation, the notebook uses Kaggle’s built-in GPU support and dataset input system.
