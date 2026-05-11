@@ -1,0 +1,149 @@
+industry,count,sectors,pct
+telecommunications,8591,"Manufacturing, Telecommunications",4.19
+management consulting,8476,"Financial Services, Management Consulting, Manufacturing, Professional Services, Retail & Consumer",4.13
+real estate,8204,Real Estate,4.0
+marketing and advertising,7265,Marketing & Communications,3.54
+law practice,5469,"Health & Wellness, Legal",2.67
+hospital & health care,5209,"Health & Wellness, Real Estate",2.54
+information technology and services,5204,"Management Consulting, Professional Services, Sports, Recreation & Travel, Technology, Telecommunications",2.54
+non-profit organization management,5128,"Government & Public Sector, Health & Wellness, Non-profit & Social",2.5
+construction,5083,"Construction & Infrastructure, Food & Agriculture, Telecommunications",2.48
+government administration,4685,"Energy & Environment, Government & Public Sector, Research & Science",2.28
+higher education,4403,"Education, Professional Services",2.15
+staffing and recruiting,4323,Human Resources & Staffing,2.11
+oil & energy,3998,"Energy & Environment, Professional Services",1.95
+architecture & planning,3521,"Construction & Infrastructure, Design & Creative, Government & Public Sector, Telecommunications",1.72
+hospitality,3521,"Sports, Recreation & Travel",1.72
+research,3486,"Research & Science, Transportation & Logistics",1.7
+financial services,3433,Financial Services,1.67
+legal services,3388,Legal,1.65
+food & beverages,3357,"Food & Agriculture, Government & Public Sector",1.64
+retail,3341,"Media & Entertainment, Retail & Consumer",1.63
+education management,3307,Education,1.61
+human resources,3204,Human Resources & Staffing,1.56
+medical devices,3133,"Research & Science, Technology",1.53
+consumer services,3112,"Design & Creative, Financial Services, Government & Public Sector, Management Consulting, Professional Services, Technology",1.52
+security and investigations,3044,"Government & Public Sector, Manufacturing, Marketing & Communications, Professional Services, Technology",1.48
+design,2902,"Design & Creative, Professional Services, Sports, Recreation & Travel",1.42
+logistics and supply chain,2452,Transportation & Logistics,1.2
+automotive,2439,Manufacturing,1.19
+food production,2395,"Food & Agriculture, Retail & Consumer",1.17
+transportation/trucking/railroad,2331,"Legal, Transportation & Logistics",1.14
+biotechnology,2322,Research & Science,1.13
+banking,2315,Financial Services,1.13
+insurance,2130,Financial Services,1.04
+"leisure, travel & tourism",2058,"Sports, Recreation & Travel",1.0
+computer software,1713,Technology,0.84
+building materials,1574,Construction & Infrastructure,0.77
+publishing,1544,"Management Consulting, Media & Entertainment",0.75
+entertainment,1537,Media & Entertainment,0.75
+broadcast media,1527,Media & Entertainment,0.74
+civil engineering,1516,Construction & Infrastructure,0.74
+sports,1510,"Sports, Recreation & Travel",0.74
+pharmaceuticals,1498,Health & Wellness,0.73
+consumer goods,1469,Retail & Consumer,0.72
+mechanical or industrial engineering,1422,"Design & Creative, Manufacturing",0.69
+mining & metals,1384,Energy & Environment,0.67
+civic & social organization,1383,"Education, Health & Wellness, Non-profit & Social",0.67
+electrical/electronic manufacturing,1381,Manufacturing,0.67
+utilities,1364,Energy & Environment,0.67
+outsourcing/offshoring,1354,Human Resources & Staffing,0.66
+"health, wellness and fitness",1345,Health & Wellness,0.66
+airlines/aviation,1298,"Energy & Environment, Transportation & Logistics",0.63
+internet,1284,"Real Estate, Research & Science, Technology, Telecommunications, Transportation & Logistics",0.63
+environmental services,1266,Energy & Environment,0.62
+media production,1264,"Design & Creative, Food & Agriculture, Media & Entertainment, Professional Services",0.62
+restaurants,1243,"Financial Services, Food & Agriculture, Professional Services",0.61
+translation and localization,1231,Professional Services,0.6
+events services,1230,"Sports, Recreation & Travel",0.6
+apparel & fashion,1120,Retail & Consumer,0.55
+maritime,1028,"Research & Science, Transportation & Logistics",0.5
+renewables & environment,971,Energy & Environment,0.47
+aviation & aerospace,952,Transportation & Logistics,0.46
+individual & family services,924,Non-profit & Social,0.45
+chemicals,921,Manufacturing,0.45
+wholesale,907,Retail & Consumer,0.44
+public relations and communications,899,"Marketing & Communications, Professional Services",0.44
+facilities services,879,"Construction & Infrastructure, Management Consulting",0.43
+machinery,861,Manufacturing,0.42
+newspapers,801,Media & Entertainment,0.39
+primary/secondary education,747,Education,0.36
+farming,746,"Food & Agriculture, Manufacturing",0.36
+international trade and development,698,Government & Public Sector,0.34
+religious institutions,695,Non-profit & Social,0.34
+executive office,677,"Energy & Environment, Manufacturing, Professional Services",0.33
+commercial real estate,653,Real Estate,0.32
+defense & space,652,Government & Public Sector,0.32
+market research,621,Marketing & Communications,0.3
+accounting,616,"Financial Services, Management Consulting",0.3
+music,601,Media & Entertainment,0.29
+import and export,578,"Research & Science, Transportation & Logistics",0.28
+online media,568,"Media & Entertainment, Professional Services, Telecommunications",0.28
+museums and institutions,553,Non-profit & Social,0.27
+wine and spirits,545,Food & Agriculture,0.27
+graphic design,537,"Design & Creative, Legal",0.26
+government relations,516,Government & Public Sector,0.25
+mental health care,489,Health & Wellness,0.24
+consumer electronics,485,"Professional Services, Retail & Consumer",0.24
+furniture,466,Retail & Consumer,0.23
+business supplies and equipment,461,Retail & Consumer,0.22
+photography,450,Design & Creative,0.22
+industrial automation,450,Manufacturing,0.22
+gambling & casinos,424,"Manufacturing, Sports, Recreation & Travel",0.21
+medical practice,418,Health & Wellness,0.2
+professional training & coaching,414,"Education, Management Consulting",0.2
+performing arts,413,Media & Entertainment,0.2
+investment management,413,"Financial Services, Food & Agriculture",0.2
+fine art,412,Design & Creative,0.2
+motion pictures and film,403,Media & Entertainment,0.2
+textiles,393,Manufacturing,0.19
+public policy,390,Government & Public Sector,0.19
+cosmetics,385,Retail & Consumer,0.19
+arts and crafts,371,Design & Creative,0.18
+luxury goods & jewelry,337,Retail & Consumer,0.16
+public safety,324,"Design & Creative, Government & Public Sector",0.16
+plastics,321,Manufacturing,0.16
+animation,309,Design & Creative,0.15
+packaging and containers,308,Manufacturing,0.15
+law enforcement,308,Government & Public Sector,0.15
+philanthropy,285,Non-profit & Social,0.14
+supermarkets,283,Food & Agriculture,0.14
+international affairs,274,Government & Public Sector,0.13
+printing,264,Manufacturing,0.13
+sporting goods,260,Retail & Consumer,0.13
+political organization,248,Government & Public Sector,0.12
+recreational facilities and services,244,"Sports, Recreation & Travel",0.12
+e-learning,240,Education,0.12
+paper & forest products,235,Manufacturing,0.11
+semiconductors,233,Technology,0.11
+information services,219,Technology,0.11
+think tanks,204,Government & Public Sector,0.1
+dairy,199,Food & Agriculture,0.1
+fund-raising,187,Non-profit & Social,0.09
+writing and editing,184,Media & Entertainment,0.09
+military,178,Government & Public Sector,0.09
+investment banking,163,Financial Services,0.08
+judiciary,159,Government & Public Sector,0.08
+nanotechnology,157,Research & Science,0.08
+computer games,150,Technology,0.07
+computer hardware,150,Technology,0.07
+warehousing,135,Transportation & Logistics,0.07
+package/freight delivery,133,Transportation & Logistics,0.06
+computer & network security,127,Technology,0.06
+shipbuilding,116,Manufacturing,0.06
+"glass, ceramics & concrete",115,Manufacturing,0.06
+computer networking,102,Technology,0.05
+venture capital & private equity,95,Financial Services,0.05
+capital markets,94,Financial Services,0.05
+libraries,88,Education,0.04
+alternative dispute resolution,85,Legal,0.04
+veterinary,73,Health & Wellness,0.04
+railroad manufacture,69,Manufacturing,0.03
+fishery,61,Food & Agriculture,0.03
+wireless,61,Technology,0.03
+ranching,56,Food & Agriculture,0.03
+tobacco,43,Retail & Consumer,0.02
+program development,42,Education,0.02
+legislative office,36,Government & Public Sector,0.02
+alternative medicine,22,Health & Wellness,0.01
+nonprofit organization management,8,Non-profit & Social,0.0
